@@ -20,7 +20,7 @@ It was created to demonstrate the ability to integrate firewall, identity, and e
 - **pfSense Firewall** → Syslog forwarded to **Ubuntu (rsyslog + AMA)** → **Microsoft Sentinel**
 - **Windows Server 2022 (DC01)** → AD DS + GPO audit → Synced via **Entra Connect** → Entra ID
 - **Windows 11 Endpoint** → Sysmon + Microsoft Defender for Endpoint → Sentinel
-- **Security Onion ** → Zeek/Suricata for NDR visibility
+- **Security Onion** → Zeek/Suricata for NDR visibility
 - **Microsoft Sentinel (soc-la)** → Central SIEM/XDR for hunting, detections, and dashboards
 
 ---
